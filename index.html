@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to my personal corner of the internet.">
+  <title>CHEN Zixuan | Personal Page</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f4f4f4;
+      color: #111;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card {
+      width: 100%;
+      max-width: 620px;
+      padding: 48px 36px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 20px;
+      font-size: clamp(26px, 5vw, 36px);
+      letter-spacing: -1px;
+      line-height: 1.2;
+    }
+    p {
+      margin: 0 0 28px;
+      color: #555;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #111;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      line-height: 1.5;
+      transition: background-color 0.2s;
+    }
+    .btn:hover { background-color: #333; }
+    .btn:focus-visible { outline: 3px solid #5085e8; outline-offset: 4px; }
+    @media (max-width: 480px) {
+      .card { padding: 36px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- Personal introduction -->
+    <h1>Hello, I'm CHEN Zixuan</h1>
+    <p>Welcome to my personal corner of the internet. I'm passionate about building things, sharing knowledge, and exploring new ideas.</p>
+    <nav class="social-links" aria-label="Social links">
+      <!-- Replace these platform homepages with your own profile links when available. -->
+      <a href="https://github.com/czx20080808-max" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.youtube.com/" class="btn" target="_blank" rel="noopener noreferrer">YouTube</a>
+    </nav>
+  </main>
+</body>
+</html>
+
+
